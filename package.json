@@ -5,13 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
-  },
 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadarevusandeep/travel-backend.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vadarevusandeep/travel-backend/issues"
+  },
+  "homepage": "https://github.com/vadarevusandeep/travel-backend#readme",
   "dependencies": {
-    "json-server": "0.17.4"
+    "json-server": "^0.17.4"
   }
 }
